@@ -21,7 +21,7 @@ const toggleHamburger = () => {
           <nav aria-label="Site Nav">
             <ul class="flex items-center gap-6 text-sm">
               <li>
-                <a class="block text-teal-600" href="/">
+                <NuxtLink class="block text-teal-600" to="/">
                   <span class="sr-only">Home</span>
                   <svg
                     class="h-8"
@@ -34,24 +34,24 @@ const toggleHamburger = () => {
                       fill="currentColor"
                     />
                   </svg>
-                </a>
+                </NuxtLink>
               </li>
             </ul>
           </nav>
         </div>
 
         <div class="flex items-center gap-4">
-          <div class="sm:flex hidden sm:gap-4 text-lg">
-            <a class="text-gray-500 transition hover:text-gray-500/75" href="/">
-              Blog
-            </a>
+          <div class="sm:flex hidden sm:gap-4 text-medium">
+            <NuxtLink class="text-gray-500 transition hover:text-gray-500/75 tracking-wider" to="/about">
+              about
+            </NuxtLink>
 
             <div class="hidden sm:flex">
               <a
                 class="text-gray-500 transition hover:text-gray-500/75"
                 href="/"
               >
-                this
+                home
               </a>
             </div>
             <div class="relative">
@@ -178,8 +178,8 @@ const toggleHamburger = () => {
                     <nav
                       class="flex flex-col divide-y divide-gray-200 border-t border-b border-gray-200 text-sm font-medium text-gray-500"
                     >
-                      <a href="#" class="noSelect px-6 py-3"> Home </a>
-                      <a href="#" class="noSelect px-6 py-3"> About </a>
+                      <NuxtLink to="/" class="noSelect px-6 py-3"> Home </NuxtLink>
+                      <NuxtLink to="/about" class="noSelect px-6 py-3"> About </NuxtLink>
                       <a
                         href="#"
                         class="noSelect flex items-center justify-between px-6 py-3"

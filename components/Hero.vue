@@ -1,13 +1,10 @@
-<script scoped>
-// import UIkit from 'uikit';
-</script>
 <template>
-  <section class=" w-full lg:truncate sm:truncate">
+  <section class="w-full lg:truncate sm:truncate">
     <nuxt-img src="/hero-image.jpg" class="relative lg:-mt-16 animate__animated animate__fadeIn animate__slower" />
   </section>
 </template>
 
-<style>
+<style scoped>
 section{
     margin-bottom: 30px;
     height: 35rem;

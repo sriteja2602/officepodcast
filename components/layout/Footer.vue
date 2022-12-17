@@ -178,7 +178,7 @@
         </ul>
       </div>
       <p class="text-sm text-gray-500 flex justify-center">
-        &copy; 2022. OfficeLadies. All rights reserved.
+        &copy; 2022. OfficePodcast. All rights reserved.
       </p>
     </div>
   </footer>

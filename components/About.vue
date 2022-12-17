@@ -1,3 +1,13 @@
+<script>
+  export default {
+  head() {
+    return {
+      title: "About | OfficePodcast"
+      }
+    }
+    // ...
+  }
+</script>
 <template>
   <div
     class="container max-w-screen-xl px-4 mx-auto pb-4 space-y-8 sm:px-6 lg:space-y-10 lg:px-8"
@@ -226,7 +236,7 @@
   </div>
 </template>
 
-<style>
+<style scoped>
 section {
   height: 35rem;
 }

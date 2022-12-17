@@ -1,10 +1,13 @@
 export default {
   // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
+  router: {
+    base: '/officepodcast/'
+  },
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: 'OfficeLadies',
+    title: 'OfficePodcast',
     htmlAttrs: {
       lang: 'en'
     },
